@@ -13,12 +13,14 @@ class BankAccount {
     balance += x;
     print('$x has been deposited into this account');
   }
+
   void printInfoAccount() {
     print("Account Number : $accountNumber");
     print("Account Type : $accountType");
     print("Balanced : $balance $Currency");
 
   }
+
   void withdraw(double amount) {
     if (balance > amount) {
       balance -= amount;

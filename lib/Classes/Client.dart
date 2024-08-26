@@ -13,9 +13,12 @@ class Client extends BankAccount {
       required this.ClientName});
   @override
   void printInfoAccount() {
+
     print("Client Name is : $ClientName");
+
     print("Client Number is : $ClientNumber");
     // TODO: implement printInfo
+
     super.printInfoAccount();
   }
 }

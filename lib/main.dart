@@ -1,6 +1,6 @@
-import 'package:banktask/Classes/Bank.dart';
+
 import 'package:banktask/Classes/Client.dart';
-import 'package:flutter/material.dart';
+
 
 void main() {
   Client bankAccount = Client(
@@ -11,6 +11,8 @@ void main() {
       balance: 20000,
       Currency: "EGP");
   bankAccount.deposit(20000);
+
   bankAccount.withdraw(10000);
+
   bankAccount.printInfoAccount();
 }
